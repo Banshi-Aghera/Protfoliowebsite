@@ -6,12 +6,15 @@
   --bg-card: #202020;
   --text-primary: #ffffff;
   --text-secondary: #a3a3a3;
-  --accent-primary: #3b82f6; 
+  --accent-primary: #3b82f6;
   --accent-secondary: #8b5cf6;
   --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
   --font-main: 'Outfit', sans-serif;
   --transition-fast: 0.2s ease;
   --transition-medium: 0.3s ease;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  --glass-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -111,17 +114,3 @@ button {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(59, 130, 246, 0.5);
 }
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.8s ease forwards;
-}
-
-.delay-100 { animation-delay: 0.1s; }
-.delay-200 { animation-delay: 0.2s; }
-.delay-300 { animation-delay: 0.3s; }
