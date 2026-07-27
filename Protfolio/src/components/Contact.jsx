@@ -19,7 +19,7 @@ const Contact = () => {
                         </div>
 
                         <div className="contact-options">
-                            <a href={`mailto:${personalInfo.contact.email}`} className="contact-card">
+                            <a href={`mailto:${personalInfo.connect.email}`} className="contact-card">
                                 <i className='bx bx-envelope contact-card-icon'></i>
                                 <div className="contact-card-content">
                                     <h3>Email</h3>
@@ -27,7 +27,7 @@ const Contact = () => {
                                 </div>
                             </a>
 
-                            <a href={personalInfo.contact.github} target="_blank" rel="noopener noreferrer" className="contact-card">
+                            <a href={personalInfo.connect.github} target="_blank" rel="noopener noreferrer" className="contact-card">
                                 <i className='bx bxl-linkedin contact-card-icon'></i>
                                 <div className="contact-card-content">
                                     <h3>LinkedIn</h3>

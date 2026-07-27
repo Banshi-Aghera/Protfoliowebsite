@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-
-# Replace with your actual domain when deployed
-Sitemap: https://bansiaghera-one.vercel.app/sitemap.xml
+Sitemap: https://bansuaghera.github.io/sitemap.xml
